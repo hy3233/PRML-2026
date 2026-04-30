@@ -1,0 +1,13 @@
+{
+  "lookback_hours": 24,
+  "train_rows": 35040,
+  "test_rows": 8760,
+  "train_samples": 35016,
+  "test_samples": 8760,
+  "best_model": "LSTM",
+  "best_metrics": {
+    "MAE": 12.339447945982354,
+    "RMSE": 23.060029099733516,
+    "R2": 0.9392616632268871
+  }
+}

@@ -8,7 +8,6 @@ PM2.5 concentration from the previous 24 hours of pollution and weather data.
 ```text
 hw3/
   main.py                         # experiment code
-  generate_hw3_report.py          # PDF report generator
   archive/
     LSTM-Multivariate_pollution.csv
     pollution_test_data1.csv
@@ -22,13 +21,12 @@ hw3/
 ```powershell
 cd hw3
 python main.py
-python generate_hw3_report.py
 ```
 
 Required Python packages:
 
 ```powershell
-pip install numpy pandas matplotlib scikit-learn reportlab torch
+pip install numpy pandas matplotlib scikit-learn torch
 ```
 
 ## Method
@@ -47,5 +45,5 @@ Compared models:
 - Multilayer Perceptron
 - PyTorch LSTM
 
-The generated report summarizes the dataset, preprocessing, model comparison,
-figures, and conclusions.
+The generated figures and metrics summarize the dataset, preprocessing, model
+comparison, and conclusions.

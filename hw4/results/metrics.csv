@@ -1,0 +1,9 @@
+name,model_type,position_mode,tie_kv,residual_mode,layers,d_model,n_heads,d_ff,dropout,loss,accuracy
+Transformer-learned-pos,transformer,learned,False,standard,2,64,4,128,0.050000,0.001261,1.000000
+Adaptive-PE-transformer,transformer,adaptive_sinusoidal,False,standard,2,64,4,128,0.050000,0.612465,0.793945
+Transformer-sinusoidal,transformer,sinusoidal,False,standard,2,64,4,128,0.050000,1.206964,0.510742
+Shared-KV-attention,transformer,sinusoidal,True,standard,2,64,4,128,0.050000,1.570741,0.375000
+Positional-CNN,cnn,learned,False,standard,2,64,4,128,0.050000,1.780277,0.324707
+No-residual,transformer,sinusoidal,False,none,2,64,4,128,0.050000,1.689071,0.301270
+Transformer-simple-abs,transformer,simple_abs,False,standard,2,64,4,128,0.050000,1.716199,0.294922
+No-position-encoding,transformer,none,False,standard,2,64,4,128,0.050000,1.715931,0.294434

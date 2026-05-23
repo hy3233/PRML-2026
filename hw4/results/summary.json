@@ -1,0 +1,8 @@
+{
+  "task": "pointer_retrieval",
+  "sequence_length": 8,
+  "train_steps": 700,
+  "batch_size": 128,
+  "best_model": "Transformer-learned-pos",
+  "best_accuracy": 1.0
+}
